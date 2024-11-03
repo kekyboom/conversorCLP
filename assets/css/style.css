@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 255, 255);
+    font-family: "roboto", serif; 
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+}
+
+.currency-container {
+    background-color: #35494B;
+    width: 45vh;
+    height: 46vh;
+    border-radius: 2vh;
+    color: azure;
+    padding-top: 3vh;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    padding: 2vh;
+    font-weight: 400;
+}
+
+#clp-amount{
+    padding: 1vh;
+    border-radius: 1;
+    border:0 ;
+    text-align: center;
+    width: 23vh;
+    height: 2.5vh;
+    font-size: 1.5vh;
+}
+.currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+}
+
+.select-container{
+    padding-bottom: 2vh;
+}
+
+.select-container p {
+    font-size: 2vh;
+    padding-bottom: 1vh;
+}
+
+#currency-select {
+    border-radius: 0;
+    border: none;
+    padding: 1.5vh;
+    width: 25vh;
+    font-size: 1.5vh;
+    text-align: center;
+}
+
+#convert-button {
+    background-color: #F56C0B;
+    color: white;
+    font-weight:500;
+    font-size: 2vh;
+    padding: 1.5vh;
+    width: 25vh;
+    border: 0;
+    cursor: pointer;
+}
+
+#convert-button:hover {
+    background-color: #f39049;
+}
+
+.chart-container {
+    padding: 4vh;
+}
+
+.chart-container p {
+    padding: 1vh;
+    font-size: 4vh;
+}
+.chart {
+    width: 120vh
+}
+
+#result {
+    width: 42vh;
+    height: 2.5vh;
+    font-size: 2vh;
+    background-color: #3f575a;
+    padding:1.5vh;
+}
+
